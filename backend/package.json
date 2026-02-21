@@ -1,0 +1,34 @@
+{
+  "name": "wellnessai-coach-backend",
+  "version": "1.0.0",
+  "description": "WellnessAI Coach Backend - Node.js Express Server",
+  "main": "src/server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "cd ../frontend && npm install && npm run build",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "wellness",
+    "ai",
+    "coach"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.6.2",
+    "bcryptjs": "2.4.3",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "jsonwebtoken": "9.0.2",
+    "mongoose": "7.5.2",
+    "openai": "4.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "3.0.1"
+  }
+}
